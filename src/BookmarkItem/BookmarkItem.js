@@ -1,6 +1,11 @@
 import React from 'react';
 import Rating from '../Rating/Rating';
+import config from '../config';
 import './BookmarkItem.css';
+
+function deleteBookmarkRequest(bookmarkId, cb) {
+  
+}
 
 export default function BookmarkItem(props) {
   return (
